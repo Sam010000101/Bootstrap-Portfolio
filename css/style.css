@@ -4,6 +4,36 @@
 }
 */
 
+/*
+.navbar-orange a {
+    color: rgba(203, 110, 22, 1);
+}
+*/
+body {
+    background-color: rgba(230, 230, 231);
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgba(203, 110, 22, 1);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(203, 110, 22, .75);
+}
+
+.dropdown-menu {
+    background-color: rgba(52, 58, 64, 0.5);
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: rgba(241, 59, 22, 0.50);
+    color: #fff;
+}
+
 .jumbo-title {
     margin-top: 20vh;
     padding: 20px 100px;
@@ -11,9 +41,16 @@
 }
 
 .tran-back {
-    padding: 5px 30px;
+    padding: 10px 30px;
     background-color: rgba(241, 59, 22, 0.60);
-    border-radius: 100px;
+    border-radius: 110px;
+}
+
+@media (max-width: 1200px) { 
+    .tran-back {
+    padding: 10px 10px;
+    border-radius: 50px; 
+}
 }
 
 .jumbo-image {
@@ -22,4 +59,31 @@
     background-position: top;
     background-size: cover;
     height: 100vh;
+}
+
+@media (max-width: 480px) { 
+    .jumbo-image {
+        height: 58vh;
+}
+}
+
+.gap-1 {
+    gap: 20px;
+}
+
+.main-section {
+    padding: 0 100px;
+    height: 15vh;
+    
+}
+
+
+.work-section {
+    width: 550px;
+}
+
+footer {
+    height: 100px;
+    background-color: rgba(52, 58, 64, 1);
+    color: #fff;
 }
