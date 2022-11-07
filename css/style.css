@@ -8,7 +8,12 @@
 .navbar-orange a {
     color: rgba(203, 110, 22, 1);
 }
+
+* * {
+    border 1px solid red;
 */
+
+
 body {
     background-color: rgba(230, 230, 231);
 }
@@ -78,12 +83,10 @@ body {
 }
 
 
-.work-section {
-    width: 550px;
-}
 
 footer {
     height: 100px;
     background-color: rgba(52, 58, 64, 1);
     color: #fff;
+    margin-top: 50px;
 }
