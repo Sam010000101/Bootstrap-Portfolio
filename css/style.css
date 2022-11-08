@@ -18,6 +18,25 @@ body {
     background-color: rgba(230, 230, 231);
 }
 
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+a, p {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+strong {
+    font-weight: 700;
+}
+
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: rgba(203, 110, 22, 1);
 }
@@ -70,6 +89,16 @@ body {
     .jumbo-image {
         height: 58vh;
 }
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    border-top: 4px solid rgba(241, 59, 22, 0.60);
 }
 
 .gap-1 {
