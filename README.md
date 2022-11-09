@@ -5,7 +5,7 @@ This is my portfolio utilising Bootstrap 4
 
 As a web developer it is important to showcase your work in order to demonstrate your skills & talent to prospective clients and/or employers.
 
-I have developed a portfolio page to showcase some of my early work as a front-end web developer. The portfolio will be considered a 'live' project that will be developed to include further examples of my completed works as I progress my career. 
+I have developed a portfolio page utilising Bootstrap 4 to showcase some of my early work as a front-end web developer. The portfolio will be considered a 'live' project that will be developed to include further examples of my completed works as I progress my career. 
 
 I have learned and applied the following aspects as part of this HTML & CSS project;
 
