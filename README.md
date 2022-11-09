@@ -16,7 +16,7 @@ I have learned and applied the following aspects as part of this HTML & CSS proj
     <li><strong>Google Fonts</strong> CDN based fonts to provide a suitable font type to suit my design</li>
 </ul> 
 
-I have have added some hover effects to the nav bar links,  styled my own text 'callouts' for maximum visula impact & added some custom css to the cards displaying my work.
+I have have added some hover effects to the nav bar links,  styled my own text 'callouts' for maximum visual impact & added some custom css to the cards displaying my work.
 
 
 ### Result - <br>
