@@ -151,6 +151,16 @@ img {
 }
 }
 
+.btn-primary {
+    background-color: var(--orange);
+    border: solid 1px var(--orange-lighter);
+}
+
+.btn-primary:hover {
+    background-color: #343a40;
+    border: solid 1px #343a40;
+}
+
 .gap-1 {
     gap: 20px;
 }
