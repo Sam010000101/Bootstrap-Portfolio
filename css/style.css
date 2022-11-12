@@ -8,10 +8,13 @@
 .navbar-orange a {
     color: rgba(203, 110, 22, 1);
 }
-
-* * {
-    border 1px solid red;
 */
+
+/* * {
+    border: 1px solid red;
+} */
+
+
 :root {
 --orange: rgba(241, 59, 22, 0.60);
 --orange-lighter: rgba(241, 59, 22, 0.50);
@@ -44,6 +47,12 @@ strong {
     padding: 0 20px;
 }
 
+@media (max-width: 820px) { 
+    .light-link {
+        flex-direction: column;
+    }
+    }
+
 .light-link:hover {
     color: black;
 }
@@ -75,6 +84,13 @@ strong {
     
 }
 
+@media (max-width: 820px) { 
+.jumbo-title {
+    /* margin-top: 55vh; */
+    padding: 1px 26px;
+}
+}
+
 .tran-back {
     padding: 10px 30px;
     background-color: var(--orange);
@@ -88,11 +104,20 @@ strong {
 }
 }
 
+
+
 .tran-back-lower {
     padding: 10px 30px;
     background-color: var(--orange-lighter);
     border-radius: 110px;
     text-align: justify;
+}
+
+@media (max-width: 1200px) { 
+    .tran-back-lower {
+    padding: 10px 10px;
+    border-radius: 50px; 
+}
 }
 
 .jumbo-image {
@@ -103,9 +128,10 @@ strong {
     height: 100vh;
 }
 
-@media (max-width: 480px) { 
+@media (max-width: 600px) { 
     .jumbo-image {
-        height: 58vh;
+        height: 93vh;
+        background-position-x: -542px;
 }
 }
 
@@ -131,8 +157,13 @@ img {
 
 .main-section {
     padding: 0 100px;
-    height: 150px;
-    
+    /* height: 150px; */
+}
+
+@media (max-width: 1200px) { 
+    .main-section {
+    padding: 0 16px; 
+}
 }
 
 
